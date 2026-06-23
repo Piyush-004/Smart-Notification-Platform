@@ -1,0 +1,63 @@
+# =====================
+# Frontend (React/Vite)
+# =====================
+
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Frontend env files
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+frontend/.env.development
+
+# =====================
+# Backend (Python/FastAPI)
+# =====================
+
+backend/.venv/
+backend/venv/
+backend/env/
+
+backend/__pycache__/
+backend/**/*.pyc
+
+# Python cache
+*.pyc
+*.pyo
+*.pyd
+
+# =====================
+# IDE files
+# =====================
+
+.vscode/
+.idea/
+
+# =====================
+# OS files
+# =====================
+
+.DS_Store
+Thumbs.db
+
+# =====================
+# Logs
+# =====================
+
+*.log
+
+# =====================
+# Secrets
+# =====================
+
+.env
+.env.*
+
+# =====================
+# Build files
+# =====================
+
+build/
+dist/
